@@ -163,3 +163,8 @@ State of the digital input ports D1-D4 on the device.
     @property NSInteger a5;
 
 Digital code produced by the ADC for the voltage at the corresponding analog input ports A1-A6; the first four channels have 10-bit resolution (ranging from 0-1024), while the last two have 6-bit (ranging from 0-63).
+
+
+# BITalinoBLE-Example iOS App
+It is pre-configured ready-to-use example app covering all the functionalities from the BITalinoBLE.framework.
+![enter image description here](http://i.imgur.com/bmo0bQ4.jpg)
