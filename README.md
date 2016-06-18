@@ -33,9 +33,10 @@ and it should be default value, but there is no guarantee for that. The best opt
 + Scans available BLE devices and connects the one with UUID equal to identifier passed during the object initialization. If the device is already connected it just logs the message. 
 
 + Fires `bitalinoDidConnect:` delegate method after establishing connection.
- 
- 
- **2. `-(void)startRecordingFromAnalogChannels:(NSArray*)channels withSampleRate:(NSInteger)sr numberOfSamples:(NSInteger)ns samplesCompletion:(void (^)(BITalinoFrame* frame))completion;`**
+
+#
+
+ **2.`-(void)startRecordingFromAnalogChannels:(NSArray*)channels withSampleRate:(NSInteger)sr numberOfSamples:(NSInteger)ns samplesCompletion:(void (^)(BITalinoFrame* frame))completion;`**
  
 + Switches BITalino to live mode and sets desired sample rate (1, 10, 100 or 1000 Hz). 
 
@@ -55,6 +56,8 @@ and it should be default value, but there is no guarantee for that. The best opt
 
 + Fires `bitalinoRecordingStarted:` delegate method after starting recording.
 
+#
+
  **3. `-(void)stopRecording;`**
  
 + Switches BITalino to idle mode.
@@ -65,6 +68,7 @@ and it should be default value, but there is no guarantee for that. The best opt
 
 + Fires `bitalinoRecordingStopped:` delegate method after stopping recording.
 
+#
 
 **4. `-(void)disconnect;`**
 
@@ -76,6 +80,7 @@ and it should be default value, but there is no guarantee for that. The best opt
 
 + Fires `bitalinoDidDisconnect:` delegate method after closing connection.
 
+#
 
 **5. `-(void)setBatteryThreshold:(NSInteger)threshold;`**
 
@@ -91,6 +96,7 @@ and it should be default value, but there is no guarantee for that. The best opt
 
 + Fires `bitalinoBatteryThresholdUpdated:` delegate method on successful threshold update.
 
+#
 
 **6. `-(NSString*)version;`**
 
@@ -100,6 +106,7 @@ and it should be default value, but there is no guarantee for that. The best opt
 
 + Logs message if BITalino is in recording state (version is available only in idle state).
 
+#
 
 **7. `-(void)setDigitalOutputs:(NSArray*)channels;`**
 
