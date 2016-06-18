@@ -1,0 +1,6 @@
+framework module BITalinoBLE {
+  umbrella header "BITalinoBLE.h"
+
+  export *
+  module * { export * }
+}

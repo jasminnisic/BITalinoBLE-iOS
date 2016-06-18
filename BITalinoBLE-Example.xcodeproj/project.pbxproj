@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4974B911D155F410003A2EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4974B901D155F410003A2EC /* main.m */; };
+		A4974B941D155F410003A2EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4974B931D155F410003A2EC /* AppDelegate.m */; };
+		A4974B971D155F410003A2EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4974B961D155F410003A2EC /* ViewController.m */; };
+		A4974B9A1D155F410003A2EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4974B981D155F410003A2EC /* Main.storyboard */; };
+		A4974B9C1D155F410003A2EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4974B9B1D155F410003A2EC /* Assets.xcassets */; };
+		A4974B9F1D155F410003A2EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4974B9D1D155F410003A2EC /* LaunchScreen.storyboard */; };
+		A4974BA81D155F6B0003A2EC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A4974BA71D155F6B0003A2EC /* logo.png */; };
+		A4974BD71D159CBB0003A2EC /* BITalinoBLE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4974BD61D159CBB0003A2EC /* BITalinoBLE.framework */; };
+		A4974BD81D159CBE0003A2EC /* BITalinoBLE.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A4974BD61D159CBB0003A2EC /* BITalinoBLE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A4974BAB1D156C6D0003A2EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A4974BD81D159CBE0003A2EC /* BITalinoBLE.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A4974B8C1D155F410003A2EC /* BITalinoBLE-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BITalinoBLE-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4974B901D155F410003A2EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4974B921D155F410003A2EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4974B931D155F410003A2EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4974B951D155F410003A2EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4974B961D155F410003A2EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4974B991D155F410003A2EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4974B9B1D155F410003A2EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4974B9E1D155F410003A2EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4974BA01D155F410003A2EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4974BA71D155F6B0003A2EC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		A4974BD61D159CBB0003A2EC /* BITalinoBLE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BITalinoBLE.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4974B891D155F410003A2EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4974BD71D159CBB0003A2EC /* BITalinoBLE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4974B831D155F410003A2EC = {
+			isa = PBXGroup;
+			children = (
+				A4974B8E1D155F410003A2EC /* BITalinoBLE-Example */,
+				A4974B8D1D155F410003A2EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4974B8D1D155F410003A2EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4974B8C1D155F410003A2EC /* BITalinoBLE-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4974B8E1D155F410003A2EC /* BITalinoBLE-Example */ = {
+			isa = PBXGroup;
+			children = (
+				A4974BA61D155F630003A2EC /* images */,
+				A4974BD61D159CBB0003A2EC /* BITalinoBLE.framework */,
+				A4974B921D155F410003A2EC /* AppDelegate.h */,
+				A4974B931D155F410003A2EC /* AppDelegate.m */,
+				A4974B951D155F410003A2EC /* ViewController.h */,
+				A4974B961D155F410003A2EC /* ViewController.m */,
+				A4974B981D155F410003A2EC /* Main.storyboard */,
+				A4974B9B1D155F410003A2EC /* Assets.xcassets */,
+				A4974B9D1D155F410003A2EC /* LaunchScreen.storyboard */,
+				A4974BA01D155F410003A2EC /* Info.plist */,
+				A4974B8F1D155F410003A2EC /* Supporting Files */,
+			);
+			path = "BITalinoBLE-Example";
+			sourceTree = "<group>";
+		};
+		A4974B8F1D155F410003A2EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4974B901D155F410003A2EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4974BA61D155F630003A2EC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A4974BA71D155F6B0003A2EC /* logo.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4974B8B1D155F410003A2EC /* BITalinoBLE-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4974BA31D155F410003A2EC /* Build configuration list for PBXNativeTarget "BITalinoBLE-Example" */;
+			buildPhases = (
+				A4974B881D155F410003A2EC /* Sources */,
+				A4974B891D155F410003A2EC /* Frameworks */,
+				A4974B8A1D155F410003A2EC /* Resources */,
+				A4974BAB1D156C6D0003A2EC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BITalinoBLE-Example";
+			productName = "BITalinoBLE-Example";
+			productReference = A4974B8C1D155F410003A2EC /* BITalinoBLE-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4974B841D155F410003A2EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JasminNisic;
+				TargetAttributes = {
+					A4974B8B1D155F410003A2EC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = A4974B871D155F410003A2EC /* Build configuration list for PBXProject "BITalinoBLE-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4974B831D155F410003A2EC;
+			productRefGroup = A4974B8D1D155F410003A2EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4974B8B1D155F410003A2EC /* BITalinoBLE-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4974B8A1D155F410003A2EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4974BA81D155F6B0003A2EC /* logo.png in Resources */,
+				A4974B9F1D155F410003A2EC /* LaunchScreen.storyboard in Resources */,
+				A4974B9C1D155F410003A2EC /* Assets.xcassets in Resources */,
+				A4974B9A1D155F410003A2EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4974B881D155F410003A2EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4974B971D155F410003A2EC /* ViewController.m in Sources */,
+				A4974B941D155F410003A2EC /* AppDelegate.m in Sources */,
+				A4974B911D155F410003A2EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4974B981D155F410003A2EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4974B991D155F410003A2EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4974B9D1D155F410003A2EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4974B9E1D155F410003A2EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4974BA11D155F410003A2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4974BA21D155F410003A2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4974BA41D155F410003A2EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BITalinoBLE-Example",
+				);
+				INFOPLIST_FILE = "BITalinoBLE-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JasminNisic.BITalinoBLE-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4974BA51D155F410003A2EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BITalinoBLE-Example",
+				);
+				INFOPLIST_FILE = "BITalinoBLE-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JasminNisic.BITalinoBLE-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4974B871D155F410003A2EC /* Build configuration list for PBXProject "BITalinoBLE-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4974BA11D155F410003A2EC /* Debug */,
+				A4974BA21D155F410003A2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4974BA31D155F410003A2EC /* Build configuration list for PBXNativeTarget "BITalinoBLE-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4974BA41D155F410003A2EC /* Debug */,
+				A4974BA51D155F410003A2EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4974B841D155F410003A2EC /* Project object */;
+}
