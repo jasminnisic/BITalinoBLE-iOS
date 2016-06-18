@@ -167,4 +167,4 @@ Digital code produced by the ADC for the voltage at the corresponding analog inp
 
 # BITalinoBLE-Example iOS App
 It is pre-configured ready-to-use example app covering all the functionalities from the BITalinoBLE.framework.
-![enter image description here](http://i.imgur.com/bmo0bQ4.jpg)
+![enter image description here](http://i.imgur.com/bS6PnMj.jpg)
