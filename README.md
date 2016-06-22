@@ -24,7 +24,7 @@ BITalinoBLE object needs to be initialized with device UUID (passed as NSString*
 
     #define BITALINO_IDENTIFIER @"4510AAEC-C465-8FFD-A266-537A9590E6EE"
 
-and it should be default value, but there is no guarantee for that. The best option for you is to scan BLE devices by yourself and read CBPeripheral object UUID property.
+You need to scan BLE devices by yourself and read CBPeripheral object UUID property.
 
 ### **2. Public interface**
 
