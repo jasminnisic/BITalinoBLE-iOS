@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A42AF1981D1B0F9000CFA920 /* BITalinoBLE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42AF1971D1B0F9000CFA920 /* BITalinoBLE.framework */; };
+		A42AF1991D1B0F9900CFA920 /* BITalinoBLE.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A42AF1971D1B0F9000CFA920 /* BITalinoBLE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A4974B911D155F410003A2EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4974B901D155F410003A2EC /* main.m */; };
 		A4974B941D155F410003A2EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4974B931D155F410003A2EC /* AppDelegate.m */; };
 		A4974B971D155F410003A2EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4974B961D155F410003A2EC /* ViewController.m */; };
@@ -14,8 +16,6 @@
 		A4974B9C1D155F410003A2EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4974B9B1D155F410003A2EC /* Assets.xcassets */; };
 		A4974B9F1D155F410003A2EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4974B9D1D155F410003A2EC /* LaunchScreen.storyboard */; };
 		A4974BA81D155F6B0003A2EC /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A4974BA71D155F6B0003A2EC /* logo.png */; };
-		A4974BD71D159CBB0003A2EC /* BITalinoBLE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4974BD61D159CBB0003A2EC /* BITalinoBLE.framework */; };
-		A4974BD81D159CBE0003A2EC /* BITalinoBLE.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A4974BD61D159CBB0003A2EC /* BITalinoBLE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,13 +25,14 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A4974BD81D159CBE0003A2EC /* BITalinoBLE.framework in CopyFiles */,
+				A42AF1991D1B0F9900CFA920 /* BITalinoBLE.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A42AF1971D1B0F9000CFA920 /* BITalinoBLE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BITalinoBLE.framework; sourceTree = "<group>"; };
 		A4974B8C1D155F410003A2EC /* BITalinoBLE-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BITalinoBLE-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4974B901D155F410003A2EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4974B921D155F410003A2EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,7 +44,6 @@
 		A4974B9E1D155F410003A2EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4974BA01D155F410003A2EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4974BA71D155F6B0003A2EC /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		A4974BD61D159CBB0003A2EC /* BITalinoBLE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BITalinoBLE.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4974BD71D159CBB0003A2EC /* BITalinoBLE.framework in Frameworks */,
+				A42AF1981D1B0F9000CFA920 /* BITalinoBLE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,8 +77,8 @@
 		A4974B8E1D155F410003A2EC /* BITalinoBLE-Example */ = {
 			isa = PBXGroup;
 			children = (
+				A42AF1971D1B0F9000CFA920 /* BITalinoBLE.framework */,
 				A4974BA61D155F630003A2EC /* images */,
-				A4974BD61D159CBB0003A2EC /* BITalinoBLE.framework */,
 				A4974B921D155F410003A2EC /* AppDelegate.h */,
 				A4974B931D155F410003A2EC /* AppDelegate.m */,
 				A4974B951D155F410003A2EC /* ViewController.h */,
@@ -339,6 +339,7 @@
 				A4974BA51D155F410003A2EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -116,6 +116,8 @@ and it should be default value, but there is no guarantee for that. The best opt
 
 + Throws `BITalinoConnectionException` if BITalino is not connected.
 
++ Throws `BITalinoConnectionException` if BITalino is recording.
+
 + Throws `BITalinoInvalidValueException` if invalid channel values are passed.
 
 + Fires `bitalinoBatteryDigitalOutputsUpdated:` delegate method on successful digital output values assignment.

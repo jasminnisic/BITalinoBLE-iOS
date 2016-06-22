@@ -72,7 +72,7 @@
 }
 
 - (IBAction)btnSetDigitalOnTap:(id)sender {
-    if([bitalino isConnected]){
+    if([bitalino isConnected] && ![bitalino isRecording]){
         NSArray* outputs = @[@([_switchD1 isOn]),
                              @([_switchD2 isOn]),
                              @([_switchD3 isOn]),
@@ -80,7 +80,7 @@
                              ];
         [bitalino setDigitalOutputs:outputs];
     }else{
-        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"BITalino is not connected." delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Digital output values can be changed only when BITalino is connected and in idle mode." delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
         [alert show];
     }
 }
